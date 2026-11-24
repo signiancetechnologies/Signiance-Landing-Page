@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# secrets: Google service-account keys and other credentials (never commit)
+/secrets/
+*service-account*.json
+*credentials*.json
+*.p12
+
+# local Claude Code settings
+.claude/settings.local.json
